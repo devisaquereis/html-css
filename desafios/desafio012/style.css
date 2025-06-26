@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+header{
+    background-color: black;
+    width: 600px;
+    text-align: center;
+
+}
+
+header h1{
+    color: white;
+
+}
+header p{
+    color: white;
+
+}
+
+main{
+    background-color: bisque;
+    max-width: 600px;
+    min-width: 300px;
+    margin:  0px auto 0px auto;
+    text-align: center;
+    box-shadow: px 2px 2px black;
+
+}
+
+p{
+    text-align: left;
+    padding-left: 15px;
+    line-height: 35px;
+
+}
+
+div.img{
+    background: url('pacote-d012/imagens/background001.jpg') center center max-width;
+
+}
+
+.imagem01{
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+
+.imagem02{
+    max-width: 600px;
+    
+
+}

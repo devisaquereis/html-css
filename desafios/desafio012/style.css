@@ -12,10 +12,8 @@
 }
 
 header{
-    margin: auto;
+    padding: 50px 0px 50px 0px ;
     background-color: black;
-    max-height: 330px;
-    min-height: 0px;
     text-align: center;
 
 }
@@ -32,8 +30,20 @@ header h1{
 header p{
     font-family: "Passion One", sans-serif;
     font-style: normal;
+    font-size: 1.3em;
     color: white;
     padding-bottom: 50px
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+
+header a:hover{
+    text-decoration: underline;
 
 }
 
@@ -58,7 +68,7 @@ main{
 
 #image-1{
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-position: right center;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 70px 0px 100px 30px;

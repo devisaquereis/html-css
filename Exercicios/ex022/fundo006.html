@@ -6,17 +6,25 @@
     <title>Fundo com Imagens</title>
     <style>
         body{
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: repeat-y;
             background-position: center;
-            background-size: cover
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;  */
+            
+            /*  Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center repeat-y fixed;
+            background-size: cover;
 
         }
 
         main{
-            width: 400px;
+            max-width: 400px;
             background-color: white;
             border-radius: 10px;
             margin: auto;

@@ -12,6 +12,7 @@
 }
 
 header{
+    min-width: 300px;
     padding: 50px 0px 50px 0px ;
     background-color: black;
     text-align: center;
@@ -67,10 +68,8 @@ main{
 }
 
 #image-1{
-    background-image: url(pacote-d012/imagens/background001.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: url(pacote-d012/imagens/background001.jpg) center no-repeat fixed ;
+    background-size: cover;
     padding: 70px 0px 100px 30px;
 
 }
@@ -84,9 +83,8 @@ main{
 }
 
 #image2{
-    background-image: url(pacote-d012/imagens/background002.jpg);
-    background-position: right center;
-    background-attachment: fixed;
+    background: url(pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
     padding: 70px 0px 100px 30px;
 
 }

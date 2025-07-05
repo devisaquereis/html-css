@@ -30,7 +30,7 @@ header h1{
     font-family: "Passion One", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20vw;
+    font-size: 10vw;
     font-variant: small-caps;
     color: white;
 
@@ -64,8 +64,9 @@ main{
 
 }
 
-section{
-    padding: 10vh 0 10vh 40px;
+main p{
+    padding: 1em 2em;
+    border-radius: 3px;
 
 }
 
@@ -74,37 +75,30 @@ section{
     
 }
 
-.color > .text2{
-    margin-top: 70px;
-
-}
-
-#image-1{
-    background: url(pacote-d012/imagens/background001.jpg) center no-repeat fixed ;
-    background-size: cover;
-
-}
-
-#image-1 p{
+.imagem > p{
     display: inline-block;
-    padding: 10px 0;
+    padding: 5px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.300);
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2em;
 
 }
 
-#image-2{
-    background: url(pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+.imagem{
+    background: right center no-repeat fixed ;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.788);
 
 }
 
-#image-2 p{
-    display: inline-block;
-    padding: 10px o;
-    background-color: rgba(0, 0, 0, 0.300);
+#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
 
+}
 
+#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
 }
 
 footer{

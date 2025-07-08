@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela02</title>
     <style>
+        *{margin: 0;
+        padding: 0;}
+        
         body{
-            font-family: Arial, Helvetica, sans-serif
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            flex-direction: column;
+        }
 
+        header{
+            background-color: darkslategray;
+            width: 100vw;
+        }
+
+        h1{
+            text-align: center;
+            padding: 20px;
+            color: white;
         }
 
         table{
-            width: 500px;
+            width: 600px;
             border-collapse: collapse;
-
+            margin-top: 5px;
+            position: relative;
         }
 
         caption{
@@ -21,30 +40,38 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgrey;
-
-
         }
 
         td, th{
             border: 1px solid black;
             padding: 10px;
-
         }
 
         thead, tfoot{
             background-color: grey;
             color: white;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
 
         }
 
+        tbody tr:nth-child(even){
+            background-color: grey;
+        }
+
         .num{
-            text-align: right;
-            
+            text-align: right; 
         }
     </style>
 </head>
 <body>
-    <h1>Uso de tabelas grandes</h1>
+    <header>
+        <h1>População do Brasil</h1>
+    </header>
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
@@ -61,7 +88,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 90px;">População</th>
             </tr>
         </thead>
 

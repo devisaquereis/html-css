@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe{
+            background-color: lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid black;
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+    
+    <h1>Teste com iframe</h1>
+    <ul>
+        <li><a href="pag01.html" target="frame">página 1</a></li>
+        <li><a href="pag02.html" target="frame">página 2</a></li>
+        <li><a href="pag03.html" target="frame">página 3</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam soluta delectus voluptate veniam, labore quasi atque quis distinctio rem dolores, expedita vel neque laboriosam cupiditate assumenda eveniet quaerat sed. Voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo ipsum quaerat, aspernatur in recusandae ab veritatis molestias dicta blanditiis asperiores necessitatibus pariatur est fugiat vel numquam incidunt temporibus aliquam.</p>
+
+    <section class="container"><iframe srcdoc="<h1>Escolha umas das páginas acima</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam ipsum quos assumenda nesciunt blanditiis nobis deleniti, hic vel enim provident consectetur officia architecto tenetur accusantium cupiditate odit ut consequatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo repellendus assumenda modi, tempore consectetur amet neque cum eos praesentium dolore natus voluptate possimus similique quam quis ratione beatae totam! Voluptates?</p>"
+         name="frame" height="400" width="500" frameborder="0"></iframe></section>
+</body>
+</html>

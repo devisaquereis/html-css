@@ -1,0 +1,1 @@
+Obrigado por se registrar, {{nome}}!

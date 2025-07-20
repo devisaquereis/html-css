@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* Todas as demais midias*/
+
+/* Typical device Breakpoints
+    - Mobile: até 600px
+    - Tablet: até 768px
+    - Desktop: até 992px
+    - Large Desktop: até 1200px
+    - TV: até 1920px
+ */
+
+@media print{
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+
+    }
+
+    main{
+        border: 2px solid black;
+
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita por DevIsaquereis';
+        text-decoration: underline;
+
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: block;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* Desktop */
+
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+    img#tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){ /* Grandes telas */
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+
+    } 
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    } 
+}

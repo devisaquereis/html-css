@@ -7,17 +7,14 @@
     font-family: Arial, sans-serif;
 }
 
+
 body{
     background-color: lightgrey;
-    width: 100vw;
-    height: 100vh;
-
 }
 
 header{
-    background-color: darkgrey;
+    background-color: grey;
     
-
 }
 
 header h1{
@@ -26,30 +23,65 @@ header h1{
     padding: 10px;
 }
 
-header nav ul li{
-    display: inline-block;
-    padding: 15px 20px;
-    background-color: gray;
-    border-radius: 3px;
+i#burger{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+menu{
+    display: none;
     
 }
 
-header a{
-    text-decoration: none;
-    color: white;
+menu ul{
+    list-style-type: none;
 
 }
 
-header a:hover{
-    text-decoration: underline;
+menu ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border-top: 2px solid grey;
+
+}
+
+menu ul li a:hover{
+    background-color: grey;
 }
 
 main{
     width: 80vw;
     margin: 10px auto;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
     border-radius: 10px;
+
+}
+
+article h2{
+    padding: 10px;
+
+}
+
+article p{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 
 }
 

@@ -66,6 +66,7 @@ menu ul li a:hover{
 
 main{
     width: 80vw;
+    max-width: 800px;
     margin: 10px auto;
     padding: 10px;
     background-color: white;
